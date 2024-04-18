@@ -11,6 +11,6 @@ select
     SUPPLY_ID,
     PRODUCT_ID,
     SUPPLY_NAME,
-    SUPPLY_COST,
-    IS_PERISHABLE_SUPPLY -- Boolean
+    SUPPLY_COST
+    ,IS_PERISHABLE_SUPPLY::TEXT -- Change data type from BOOLEAN to TEXT
 from supplies
